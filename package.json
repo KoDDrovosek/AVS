@@ -1,0 +1,31 @@
+{
+  "name": "5min",
+  "version": "0.0.1",
+  "description": "this is forum for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoDDrovosek/AVS.git"
+  },
+  "keywords": [
+    "5min"
+  ],
+  "author": "Oleg Sokur (SoGo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoDDrovosek/AVS/issues"
+  },
+  "homepage": "https://github.com/KoDDrovosek/AVS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}
