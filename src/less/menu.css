@@ -1,0 +1,45 @@
+.bg_container .video {
+  position: relative;
+}
+.bg_container video {
+  margin-top: -20px;
+  z-index: -40;
+  width: 100%;
+  filter: blur(0px);
+  transition: 0.5s;
+}
+.bg_container video:hover {
+  filter: blur(10px);
+}
+.bg_container .container-header {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.bg_container .container-header .menu_box-header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  color: #fff;
+}
+.bg_container .container-header .menu_box-header ul li {
+  padding: 25px 30px;
+  background-color: #455a64b5;
+  font-size: 24pt;
+  font-family: "Alegreya Sans";
+  text-transform: uppercase;
+}
+.bg_container .container-header .menu_box-header ul li:first-child {
+  border-bottom-left-radius: 30%;
+}
+.bg_container .container-header .menu_box-header ul li:last-child {
+  border-bottom-right-radius: 30%;
+}
+.bg_container .container-header .menu_box-header ul li:hover {
+  cursor: pointer;
+  background-color: #ECEFF1;
+  color: #000;
+}
