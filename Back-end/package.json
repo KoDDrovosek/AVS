@@ -1,0 +1,27 @@
+{
+  "name": "5min",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoDDrovosek/AVS.git"
+  },
+  "author": "Oleg&Vlad  Sokur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoDDrovosek/AVS/issues"
+  },
+  "homepage": "https://github.com/KoDDrovosek/AVS#readme",
+  "dependencies": {
+    "nodejs": "0.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}

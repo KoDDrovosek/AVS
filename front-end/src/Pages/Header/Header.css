@@ -33,3 +33,8 @@
     background-color: #ECEFF1;
     color: #000;
   }
+@media screen and (max-device-width: 1280px){
+    .container-header{
+        display: none;
+    }
+}
