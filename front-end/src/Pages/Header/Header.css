@@ -15,12 +15,17 @@
     padding: 0;
     color: #fff;
 }
+.container-header .menu_box-header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 .container-header .menu_box-header ul li {
     padding: 25px 30px;
     background-color: #455a64b5;
     font-size: 24pt;
     font-family: "Alegreya Sans";
     text-transform: uppercase;
+    text-decoration: none;
 }
 .container-header .menu_box-header ul li:first-child {
     border-bottom-left-radius: 30%;
@@ -33,7 +38,10 @@
     background-color: #ECEFF1;
     color: #000;
   }
-@media screen and (max-device-width: 1280px){
+.container-header .menu_box-header ul li:hover a{
+    color: #000;
+}
+@media screen and (max-device-width: 720px){
     .container-header{
         display: none;
     }

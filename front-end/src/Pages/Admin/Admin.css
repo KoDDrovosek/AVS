@@ -1,0 +1,39 @@
+.form-Admin{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.form-Admin label{
+    display:inline-block;
+}
+.form-Admin textarea{
+    outline:none;
+    resize: none;
+    overflow: auto;
+}
+#blog_name{
+    height:50px;
+}
+#shorReview{
+    height: 200px;
+}
+#blog_main{
+    height: 400px;
+}
+.submit_bt-Admin{
+    display: flex;
+    padding: 10px;
+    background-color:#000000;
+    color: #ffffff;
+    font-size: 24pt;
+    font-family: 'Roboto';
+    font-weight: 100;
+    transition: 0.5s;
+    text-align: center;
+}
+.submit_bt-Admin:hover{
+    background-color: #E91E63;
+    cursor: pointer;
+}

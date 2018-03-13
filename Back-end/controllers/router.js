@@ -2,22 +2,29 @@ var express = require("express");
 var app = express();
 var request = require('request');
 var bodyParser = require("body-parser");
+var blog = require("./blogs");
 
-app.use(bodyParser.urlencoded());
+
+
 
 module.exports.GET_Request = function(app){
 
-    app.use("/",function(req,res){
-        res.sendFile('./public/index');
+    app.get("/",function(req,res){
+        res.sendFile('/home/hosts/5min/public/index.html');
     });
-    app.get('/blogs_list',function(req,res){
-
+    app.get('/admin',function(req,res){
+        res.sendFile('/home/hosts/5min/public/index.html');
     })
     
 };
 
 module.exports.POST_Request = function(app){
-
+    app.use(bodyParser.urlencoded());
+    app.use(bodyParser.json());
+    app.post('/addBlog',function(req,res){
+        console.log(req.body);
+        blog.postBlog(req.body);
+    });
 };
 
 module.exports.PUT_Request = function(app){

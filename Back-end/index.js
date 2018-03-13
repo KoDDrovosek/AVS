@@ -4,6 +4,7 @@ var bodyParser = require("body-parser");
 var router = require('./controllers/router');
 
 app.use(express.static('public'));
+
     router.GET_Request(app);
 
 

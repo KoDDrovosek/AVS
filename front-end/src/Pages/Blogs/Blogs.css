@@ -1,0 +1,50 @@
+.container-Blog{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog_box-Blog{
+    width: 20%;
+    height:300px; 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    vertical-align: top;
+    box-shadow: 4px 2px 20px 0px #00000087;
+    margin-top:20px; 
+}
+.blog-Blog img{
+    width: 100%;
+}
+.shortReview-Blog{
+    margin: 5px;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+
+.bt_open-Blog{
+    text-transform: uppercase;
+
+}
+.blogName{
+    font-size: 20pt;
+    color: #000;
+    font-family: 'Roboto';
+    margin-bottom: 3px;
+}
+.bt_open-Blog{
+    background-color: #E91E63;
+    color: #78909C;
+    font-family: 'Roboto';
+    font-size:14pt;
+    text-align: center;
+    padding: 5px;
+}
+.bt_open-Blog:hover{
+    color: #ffffff;
+    cursor: pointer;
+}

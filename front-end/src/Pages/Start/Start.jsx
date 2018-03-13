@@ -1,4 +1,4 @@
-import React , {Components} from 'react';
+import React from 'react';
 import startStyle from './Start.css';
 import imgWe from './img/we.jpeg';
 import imgGoal from './img/goal.jpeg';
