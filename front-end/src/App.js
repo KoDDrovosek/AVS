@@ -12,6 +12,7 @@ import Auth from './Pages/Auth/Auth';
 import Blogs from './Pages/Blogs/Blogs';
 import Admin from './Pages/Admin/Admin';
 import IB from './Pages/IB/IB';
+import Footer from './Pages/Footer/Footer';
 
 class App extends Component {
   render(){
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/posts" component={Blogs}/>
           <Route path="/about_ib" component={IB}/>
           <Route path="/admin" component={Admin}/>
+          <Footer/>
         </div>
       </Router>
       // <div>

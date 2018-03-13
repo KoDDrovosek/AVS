@@ -1,3 +1,69 @@
+.IB{
+    display: flex;
+    flex-direction: column;
+}
 .banner-IB{
     width: 100%;
+}
+.container_bgc_aboutib-IB{
+    background-color: #00695c;
+    padding: 20px 0;
+}
+.container_aboutib-IB{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-family: 'Roboto';
+    justify-content: space-around;
+    align-items: center;
+    font-size:14pt;
+}
+.container_aboutib-IB img,.container_main-IB img,.container_diploma-IB img{
+    display: block;
+    width: 40%;
+    height: 40%;
+    border-radius: 6px;
+}
+.aboutib_text-IB ul{
+    margin-top:10px; 
+}
+.aboutib_text-IB li{
+    padding: 5px
+}
+.container_main-IB{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-family: 'Roboto';
+    justify-content: space-around;
+    align-items: center;
+    font-size:14pt;
+    line-height: 2;
+}
+.container_bgc_main-IB{
+    background-color:#1E88E5;
+    padding: 20px 0;
+}
+.container_bgc_diploma-IB{
+    background-color: #E65100;
+    padding: 20px 0;
+}
+.container_diploma-IB{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-family: 'Roboto';
+    justify-content: space-around;
+    align-items: center;
+    font-size:14pt;
+    line-height: 2;
+}
+.diploma_text-IB{
+    width: 50%;
 }
