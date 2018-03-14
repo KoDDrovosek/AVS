@@ -10,9 +10,9 @@ function Start(){
         <div>
             <div className="bg_container" >
                 <div className="video">
-                    <video autoPlay >
+                    <video autoPlay loop>
                         <source src={videoMP4}/>
-                        <source src={videoWEBM}/>
+                        {/* <source src={videoWEBM}/> */}
                     </video>
                     <div className="logo_container">
                         <div>

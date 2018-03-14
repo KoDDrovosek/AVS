@@ -11,7 +11,7 @@ function Header (){
                         <ul>
                             <li><Link to='/'>home</Link></li>
                             <li><Link to='/about_ib'>about ib</Link></li>
-                            <li><Link to='/posts'>news</Link></li>
+                            <li><Link to='/posts'>blogs</Link></li>
                         </ul>
                     </div>
                 </div>

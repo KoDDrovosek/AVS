@@ -48,3 +48,23 @@
     color: #ffffff;
     cursor: pointer;
 }
+.modal_bt-Blogs{
+    padding: 10px;
+    background-color: #E91E63;
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.modal_bt-Blogs:hover{
+    cursor: pointer;
+}
+.modal_title-Blog{
+    font-family:'Roboto';
+    font-size: 20pt;
+    margin: 10px 0;
+}
+.modal_body-Blog{
+    font-family:'Roboto';
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
